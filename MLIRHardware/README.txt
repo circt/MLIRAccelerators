@@ -1,11 +1,4 @@
 
-## MLIR for Hardware Accelerators
-
-This latex document uses the Tufte handout style.
-
-
-
-
 Hi,
 
 Welcome to the beginnings of Tufte LaTeX package to help you
