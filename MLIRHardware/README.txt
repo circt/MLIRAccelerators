@@ -1,4 +1,4 @@
-= MLIR for Hardware Accelerators
+# MLIR for Hardware Accelerators
 
 This latex document uses the Tufte handout style.
 
