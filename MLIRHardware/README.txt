@@ -1,33 +1,25 @@
-
-Hi,
-
-Welcome to the beginnings of Tufte LaTeX package to help you
-produce Tufte-style handouts, reports, and notes.
-
 == Quick Start
 
-Try typesetting sample-handout.tex with the following sequence
+Try typesetting MLIRhardware.tex with the following sequence
 of commands,
 
- pdflatex sample-handout
- bibtex   sample-handout
- pdflatex sample-handout
- pdflatex sample-handout
+ pdflatex MLIRhardware
+ bibtex   MLIRhardware
+ pdflatex MLIRhardware
+ pdflatex MLIRhardware
 
-The result should look like sample-handout.pdf.
-
-The sample book can be compiled with the following:
-
- pdflatex sample-book
- bibtex sample-book
- texindy --language english sample-book.idx
- # or makeindex sample-book.idx
- pdflatex sample-book
- pdflatex sample-book
- pdflatex sample-book
+The result should look like MLIRhardware.pdf.
 
 
 == Troubleshooting
+
+The Tufte LaTeX package used here to produce Tufte-style handouts,
+reports, and notes require various LaTeX packages.
+
+The easier way is to install on your system a full LaTeX distribution,
+such as texlive-full on Debian/Ubuntu Linux distributions.
+
+
 
 If you encounter errors of the form,
 
